@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0mRunning Main [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/com.scitools.understand.plugin.nl1.ja_1.1.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/com.scitools.understand.plugin_1.1.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/libUnderstand.jnilib[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/Understand.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
