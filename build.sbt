@@ -1,6 +1,9 @@
-name := "hw2"
+import sbt.Keys._
 
-version := "1.0"
+lazy val root = (project in file(".")).
+settings(
+    name := "hw2",
+    version := "1.0",
+    scalaVersion := "2.11.8"
+)
 
-scalaVersion := "2.11.8"
-    

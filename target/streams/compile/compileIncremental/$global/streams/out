@@ -3,7 +3,7 @@
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
 [0m[[0mdebug[0m] [0m	modified: Set(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/scala/Main.scala)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/Main$.class, /Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/Main.class)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/Main$.class, /Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/Main$delayedInit$body.class, /Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/Main.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
 [0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/scala/Main.scala)[0m
@@ -17,13 +17,13 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 2fbc2b6d, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 194dd31e, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes:/Users/krbalmryde/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes:/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/com.scitools.understand.plugin.nl1.ja_1.1.3.jar:/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/com.scitools.understand.plugin_1.1.3.jar:/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/libUnderstand.jnilib:/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/Understand.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 5.083155047 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.665194392 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

@@ -4,11 +4,13 @@ import scala.io.StdIn
   * Created by krbalmryde on 10/6/16.
   */
 
-object Main {
+object Main extends App {
+    println("**------------------------------------------**")
 
-    def main(args: Array[String]): Unit = {
-        val input:String = StdIn.readLine("\"What do you say, Bob?\"> ")
-        println(input)
-    }
+    // Handy function which prompts the user with the supplied String and reads their input. Up to me to make it pretty
+    val input:String = StdIn.readLine("\"What do you say, Bob?\"> ")
+    println(input)
+
+
 
 }
