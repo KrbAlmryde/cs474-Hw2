@@ -49,25 +49,34 @@ package object understanding {
     }
 
 
-
+    /**
+      * Performs a Inspects the input Graph and Subgraph for an Isomorphic-case, printing the results, if
+      * such a case exists (to a degree anyway)
+      * @param alpha
+      * @param beta
+      */
     def InspectSubGraph(alpha: SimpleDirectedGraph[String, DefaultEdge], beta:SimpleDirectedGraph[String, DefaultEdge]): Unit = {
-        println("v1:" + alpha)
-        println("v2:" + beta)
-        println("Before" + "" + alpha.edgeSet().size(), beta.edgeSet().size())
         val inspector:VF2SubgraphIsomorphismInspector[String, DefaultEdge] = new VF2SubgraphIsomorphismInspector[String, DefaultEdge](alpha, beta)
         if (inspector.isomorphismExists()){
             println("Yep, it exists")
             val iterator = inspector.getMappings.asInstanceOf[java.util.Iterator[GraphMapping[String, DefaultEdge]]]
-            while(iterator.hasNext) {
+            var counter = 0;
+            while(iterator.hasNext || counter < 50) {
+                val node = iterator.next;
+
                 println(iterator.next.toString)
+
             }
         } else {
             println("NOOOOPE")
         }
 
-        TransitiveClosure.INSTANCE.closeSimpleDirectedGraph(alpha)
+        println("\n===========================================================")
+        println("\n\nPerforming The Transistive Closure Operations on Subgraph")
+
+        println("Before" + "" + beta.edgeSet().size())
         TransitiveClosure.INSTANCE.closeSimpleDirectedGraph(beta)
-        println("After" + "" + alpha.edgeSet().size(), beta.edgeSet().size())
+        println("After" + "" + beta.edgeSet().size())
 
     }
 }

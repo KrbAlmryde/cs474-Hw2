@@ -20,14 +20,16 @@ To run the application, (assuming you are using Intellij) simply execute the SBT
 to enter the name (re: fully qualified file path) of each of your Understand.udb projects. If your file does not exist,
 the application will simply ask you to try again until you get it right. Lets see an example:
  
- <start the application>
- <JVM does some stuff>
  
- \*-----------------------* 
+ **<start the application>**
  
- Please enter File#0: \> **/some/path/to/your/file.udb** 
+ **<JVM does some stuff>**
  
- Please enter File#0: \> **/some/path/to/your/other.udb** 
+ \**----------------------------------------------------------------------------\** 
+ 
+ *Please enter File#0: \>* **/some/path/to/your/file.udb** 
+ 
+ *Please enter File#0: \>* **/some/path/to/your/other/file.udb** 
 
 **NOTE: Quotation is not necessary. The application assumes you are passing a string.** 
 
@@ -58,12 +60,11 @@ handful of very small projects I developed in past courses. Those files are used
   
   
 ### Unit Testing ###
-For Unit-testing I utilized ScalaTest using the FunSuite. Its fun and was surprisingly simple to get it up and running. 
+For Unit-testing I utilized [ScalaTest](http://www.scalatest.orge) using the [FunSuite](http://doc.scalatest.org/3.0.0/#org.scalatest.FunSuite). Its fun and was surprisingly simple to get it up and running. 
 
 Go figure. 
 
-Im not going to lie and tell you that I did a particularly outstanding job of Integration and Unit testing, but there are 
-at least a few in there. Knock yourself out. 
+To run the tests, in Intellij simplly select the **SBT** task "test" and youll be up and running! Que sera
 
 ### Who do I talk to? ###
 

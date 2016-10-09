@@ -9,7 +9,7 @@ import org.jgrapht.graph.{DefaultEdge, SimpleDirectedGraph}
   * Created by krbalmryde on 10/7/16.
   * This class represents an Understand parsing Object which generates a dependency and call graph.
   *
-  * It takes as input an Understand Database file.
+  * @param inputFile is a String representing the file path an existing Understand Database file.
   *
   */
 class UnderstandParser(inputFile:String) {
@@ -58,7 +58,15 @@ class UnderstandParser(inputFile:String) {
         }
     }
 
-    // A recursive function, extracts the references found within the provided entity based on the kindstring
+    /**
+      * A recursive function, extracts the references found within the provided entity based on the kindstring
+      * @param graph a SimpleDirectedGraph[String, DefaultEdge]) object
+      * @param parent an Entity object, can be null. Used to ensure we link the generated edges correctly
+      * @param entity an Entity object, The entity we are performing queries on
+      * @param kindString a String object, contains the search pattern we want to extract
+      * @param indent a String object, used for debugging purposes only in order better understand the relationship
+      */
+    //
     def graphEntity(graph:SimpleDirectedGraph[String, DefaultEdge], parent:Entity, entity:Entity, kindString:String, indent:String): Unit ={
 
         val typedRefs = entity.refs(kindString, "~unknown ~unresolved", true)
