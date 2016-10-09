@@ -4,7 +4,7 @@
 		module="hw2-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160920152153"
+		publication="20161007165701"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

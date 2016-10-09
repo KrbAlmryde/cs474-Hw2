@@ -7,6 +7,9 @@
 [0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/libUnderstand.jnilib[0m
 [0m[[0mdebug[0m] [0m	/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/lib/Understand.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/krbalmryde/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/.ivy2/cache/org.jgrapht/jgrapht-core/jars/jgrapht-core-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/krbalmryde/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
