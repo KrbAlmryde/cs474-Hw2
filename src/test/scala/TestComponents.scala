@@ -33,8 +33,15 @@ class TestComponents extends FunSuite{
 
     test("AFTER Transitive Closure, we should NOT have 24 elements") {
         TransitiveClosure.INSTANCE.closeSimpleDirectedGraph(g1)
-        println(g1.edgeSet().size())
         assert(g1.edgeSet().size() != 24)
     }
 
+    test("In fact, there should be 35 elements") {
+        assert(g1.edgeSet().size() == 35)
+    }
+
+
+    test("When examining the dependencies at the method level, we should expect ") {
+
+    }
 }

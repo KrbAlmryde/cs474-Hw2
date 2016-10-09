@@ -28,7 +28,7 @@ object Main extends App {
 //    val input2:String = pwd + "/src/main/resources/HuntTheWumpus.udb"
 
     // convert these to empty strings at deployment
-    var fileNames = Array(pwd + "/src/main/resources/SMSSync-2.7.udb", pwd + "/src/main/resources/SMSSync-3.0.5.udb")
+    var fileNames = Array("./src/main/resources/SMSSync-2.7.udb", "./src/main/resources/SMSSync-3.0.5.udb")
     // convert these to false at deployment
     var isfileNames = Array(true, true)
 
