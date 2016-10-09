@@ -1,14 +1,11 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/BankTeller.udb,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/BankTeller.udb)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/HuntTheWumpus,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/HuntTheWumpus)[0m
-[0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/HuntTheWumpus.udb,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/HuntTheWumpus.udb)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-2.7,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/SMSSync-2.7)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-2.7.udb,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/SMSSync-2.7.udb)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-2.7.zip,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/SMSSync-2.7.zip)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-3.0.5,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/SMSSync-3.0.5)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-3.0.5.udb,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/SMSSync-3.0.5.udb)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-3.0.5.zip,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/SMSSync-3.0.5.zip)[0m
-[0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/TenMethods.udb,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/TenMethods.udb)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/HuntTheWumpus/Characters,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/HuntTheWumpus/Characters)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/HuntTheWumpus/Items,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/HuntTheWumpus/Items)[0m
 [0m[[0mdebug[0m] [0m	(/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/HuntTheWumpus/Lands,/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/target/scala-2.11/classes/HuntTheWumpus/Lands)[0m
