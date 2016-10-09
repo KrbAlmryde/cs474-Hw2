@@ -44,13 +44,13 @@ class UnderstandParser(inputFile:String) {
 
         graphTypes match {
             case Call => {
-                println ("Generating Call Graph now. Please wait....")
+                println ("Generating Call Graph now for " + dbName + ". Please wait....")
                 pFiles.foreach( fileEntity =>
                     graphEntity(callGraph, null, fileEntity, "call", " ")
                 )
             }
             case Deps => {
-                println ("Generating Dependency Graph now. Please wait....")
+                println ("Generating Dependency Graph now for" + dbName + ". Please wait....")
                 pFiles.foreach( fileEntity =>
                     graphEntity(dependencyGraph, null, fileEntity, "callby", " ")
                 )
@@ -80,10 +80,10 @@ class UnderstandParser(inputFile:String) {
             graph.addEdge(parentName, entityName)
         }
 
-                println(indent+entity.kind.name+"++"+entityName)
+//        println(indent+entity.kind.name+"++"+entityName)
 
         typedRefs.foreach( ref => {
-            graphEntity(graph, entity,ref.ent, kindString, "  "+indent)
+            graphEntity(graph, entity, ref.ent, kindString, "  "+indent)
         })
 
     }

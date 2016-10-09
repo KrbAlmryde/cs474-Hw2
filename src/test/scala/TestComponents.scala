@@ -13,12 +13,19 @@ import org.jgrapht.graph.DefaultEdge
 class TestComponents extends FunSuite{
 
     val alpha = new UnderstandParser("/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/test/resources/BankTeller.udb");
-        alpha.generateGraphs(Deps)
+    val beta = new UnderstandParser("/Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/test/resources/HuntTheWumpus.udb");
+        alpha.generateGraphs(Deps); beta.generateGraphs(Deps)
     val g1 = alpha.getGraph(Deps)
+    val g2 = beta.getGraph(Deps)
 
     test("A graph should be Isomorphic if it is a subgraph of itsef") {
         val inspector:VF2SubgraphIsomorphismInspector[String, DefaultEdge] = new VF2SubgraphIsomorphismInspector[String, DefaultEdge](g1, g1)
         assert(inspector.isomorphismExists)
+    }
+
+    test("A graph should be NOT Isomorphic if the subgraph is different") {
+        val inspector:VF2SubgraphIsomorphismInspector[String, DefaultEdge] = new VF2SubgraphIsomorphismInspector[String, DefaultEdge](g1, g2)
+        assert(!inspector.isomorphismExists)
     }
 
     test("We should get an Exception if Understand is Unable to open the DB") {
@@ -40,9 +47,4 @@ class TestComponents extends FunSuite{
         assert(g1.edgeSet().size() == 35)
     }
 
-
-    test("When examining the dependencies at the method level, we should expect ") {
-        val entString = "files ~unknown ~unresolved"
-//        val
-    }
 }

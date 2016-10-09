@@ -12,7 +12,6 @@ import com.hw2.understanding.GraphTypes._
 
 object Main extends App {
 
-    println("**------------------------------------------**")
 
     /**
       * Handy function which prompts the user with the supplied String and reads their input.
@@ -21,17 +20,11 @@ object Main extends App {
       * This
       * http://stackoverflow.com/questions/5055349/how-to-take-an-input-from-a-user-on-scala
       */
-///Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-2.7.udb
-///Users/krbalmryde/Dropbox/Class-projects/cs474/hw2/src/main/resources/SMSSync-3.0.5.udb
-//
-//    val input1:String = pwd + "/src/main/resources/HuntTheWumpus.udb"
-//    val input2:String = pwd + "/src/main/resources/HuntTheWumpus.udb"
-
-    // convert these to empty strings at deployment
     var fileNames = Array("./src/main/resources/SMSSync-2.7.udb", "./src/main/resources/SMSSync-3.0.5.udb")
     // convert these to false at deployment
     var isfileNames = Array(true, true)
 
+    println("**------------------------------------------**")
     // Start by prompting the User for a VALID file name for each input
     val parsers = List(0, 1).map( i => {
         while(!isfileNames(i)) {
@@ -51,7 +44,8 @@ object Main extends App {
     List(Deps, Call).foreach(pattern => {
         parsers(0).generateGraphs(pattern)
         parsers(1).generateGraphs(pattern)
-        println("computing IsoMorphic case for "+ pattern + " Graphs")
+        println("\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        println("Computing IsoMorphic case for "+ pattern + " Graphs")
         InspectSubGraph( parsers(0).getGraph(pattern), parsers(1).getGraph(pattern) )
     })
 

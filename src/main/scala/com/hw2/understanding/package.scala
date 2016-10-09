@@ -5,8 +5,8 @@ import java.io.File
 import org.jgrapht._
 import org.jgrapht.alg._
 import org.jgrapht.graph._
-import java.util.Iterator
 import org.jgrapht.alg.isomorphism._
+
 
 /**
   * Created by krbalmryde on 10/7/16.
@@ -51,32 +51,43 @@ package object understanding {
 
     /**
       * Performs a Inspects the input Graph and Subgraph for an Isomorphic-case, printing the results, if
-      * such a case exists (to a degree anyway)
-      * @param alpha
-      * @param beta
+      * such a case exists (Up to 50 elements or the end of the list, whichever comes first)
+      * @param alpha Version 1 Graph, this will behave as the parent graph
+      * @param beta Version
       */
     def InspectSubGraph(alpha: SimpleDirectedGraph[String, DefaultEdge], beta:SimpleDirectedGraph[String, DefaultEdge]): Unit = {
         val inspector:VF2SubgraphIsomorphismInspector[String, DefaultEdge] = new VF2SubgraphIsomorphismInspector[String, DefaultEdge](alpha, beta)
         if (inspector.isomorphismExists()){
-            println("Yep, it exists")
+            println("Results: Isomorphism Exists")
+            println("------------------------------------------------------")
             val iterator = inspector.getMappings.asInstanceOf[java.util.Iterator[GraphMapping[String, DefaultEdge]]]
-            var counter = 0;
+            var counter = 0
             while(iterator.hasNext || counter < 50) {
                 val node = iterator.next;
-
-                println(iterator.next.toString)
-
+                println("\t"+node.toString)
+                counter+=1
             }
         } else {
-            println("NOOOOPE")
+            println("Results: Isomorphism does NOT Exist")
         }
 
         println("\n===========================================================")
-        println("\n\nPerforming The Transistive Closure Operations on Subgraph")
+        println("Performing The Transistive Closure Operations on Subgraph")
 
-        println("Before" + "" + beta.edgeSet().size())
+        println("Before: " + beta.edgeSet().size())
         TransitiveClosure.INSTANCE.closeSimpleDirectedGraph(beta)
-        println("After" + "" + beta.edgeSet().size())
+        println("After " + beta.edgeSet().size())
+        println("------------------------------------------------------------\nResults:")
+        var counter = 50
+        if (beta.edgeSet().size() < 50)
+            counter = beta.edgeSet().size()
+
+        val edges = beta.edgeSet().toArray
+
+        for ( i <- 0 to counter) {
+            println("\t"+edges(i))
+        }
+
 
     }
 }
