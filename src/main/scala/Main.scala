@@ -20,9 +20,9 @@ object Main extends App {
       * This
       * http://stackoverflow.com/questions/5055349/how-to-take-an-input-from-a-user-on-scala
       */
-    var fileNames = Array("./src/main/resources/SMSSync-2.7.udb", "./src/main/resources/SMSSync-3.0.5.udb")
+    var fileNames = Array("", "")
     // convert these to false at deployment
-    var isfileNames = Array(true, true)
+    var isfileNames = Array(false, false)
 
     println("**------------------------------------------**")
     // Start by prompting the User for a VALID file name for each input
